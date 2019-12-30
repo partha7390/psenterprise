@@ -1548,7 +1548,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   } */
 
   #intro p {
-    width: 60%;
+    /* width: 60%; */
   }
 
   #intro .carousel-control-prev,
