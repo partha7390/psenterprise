@@ -234,6 +234,13 @@ h6 {
   font-weight: 700;
 }
 
+#intro h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
 #intro p {
   width: 80%;
   margin: 0 auto 30px auto;
