@@ -1537,7 +1537,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-@media (min-width: 768px) {
+@media (min-width: 1234px) {
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {
@@ -1575,7 +1575,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1234px) {
   .back-to-top {
     bottom: 15px;
   }
@@ -1598,5 +1598,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #mobile-nav-toggle {
     display: inline;
+  }
+}
+
+@media screen and (max-width: 1234px) {
+  #hide_mobile {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 78%;
+    display: none;
   }
 }
