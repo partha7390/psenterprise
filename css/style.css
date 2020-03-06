@@ -1548,6 +1548,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
   }
+
+  .callUs {
+    bottom: 15000px;
+    display: none;
+  }
+  
 }
 
 @media (min-width: 992px) {
@@ -1580,6 +1586,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     bottom: 15px;
   }
 
+
   #header #logo h1 {
     font-size: 28px;
   }
@@ -1610,4 +1617,29 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 78%;
     display: none;
   }
+}
+
+.callUs {
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+  position: fixed;
+  background: #18d26e;
+  color: #fff;
+  width: -webkit-fill-available;
+  height: 60px;
+  text-align: center;
+  line-height: 1;
+  font-size: 3vw;
+  bottom: -1px;
+  transition: background 0.5s;
+  z-index: 20;
+}
+
+.callUs i {
+  color: #fff;
+  font-size: xx-large;
+  padding-top: 15px;
+  padding-right: 5px;
 }
