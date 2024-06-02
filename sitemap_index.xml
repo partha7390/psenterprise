@@ -119,5 +119,14 @@
       <priority>0.9</priority>
 
    </url>
+   <url>
+
+      <loc>https://partha7390.github.io/psenterprise/birbhum/</loc>
+
+      <changefreq>always</changefreq>
+
+      <priority>0.9</priority>
+
+   </url>
 
 </urlset>
